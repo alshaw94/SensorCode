@@ -57,7 +57,8 @@ function accelerometerError() {
 
 function updateFreq(freq) {
 	//do something to update freq. here.
-	alert("HEllo");
+	alert("Hello");
+	accelerometerOptions.frequency = freq; //changed my mind - now 3 seconds
 }
 
 
